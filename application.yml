@@ -3,7 +3,8 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://localhost:8083/eureka
+      
     #instance-info-replication-interval-seconds:
   instance: 
     hostname: localhost
